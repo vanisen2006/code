@@ -1,4 +1,4 @@
-export ZONE=
+export ZONE=us-west3-c
 gcloud compute instances create lamp-1-vm \
     --project=$DEVSHELL_PROJECT_ID \
     --zone=$ZONE \
